@@ -9,7 +9,7 @@ class Calculator
 
   def initialize(sum)
     @sum = sum
-    @sum_as_tokens = @sum.split(' ')
+    @sum_as_tokens = @sum.split(/(\+|-|\*\*|\*|\/)/)
   end
 
   def calculate

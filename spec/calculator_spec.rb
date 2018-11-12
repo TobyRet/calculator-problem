@@ -55,5 +55,13 @@ RSpec.describe Calculator do
         end
       end
     end
+
+    context 'no whitespace' do
+      let(:sum) { '20+4' }
+
+      it 'gives the correct result' do
+        expect(subject.calculate).to eq(24)
+      end
+    end
   end
 end
