@@ -1,0 +1,8 @@
+# Ignore bundler config.
+/.bundle
+
+.byebug_history
+
+# Ignore IDEs
+.idea/
+
