@@ -15,4 +15,3 @@ Handles:
 Todo:
 
 - brackets
-- handling sums with no white space
